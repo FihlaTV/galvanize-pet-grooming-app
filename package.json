@@ -1,0 +1,31 @@
+{
+  "name": "galvanize-pet-grooming-app",
+  "version": "1.0.0",
+  "description": "SQL Join Assessment",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rscarlisle/galvanize-pet-grooming-app.git"
+  },
+  "keywords": [
+    "SQL",
+    "join",
+    "psql"
+  ],
+  "author": "Randall Carlisle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rscarlisle/galvanize-pet-grooming-app/issues"
+  },
+  "homepage": "https://github.com/rscarlisle/galvanize-pet-grooming-app#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "knex": "^0.12.7",
+    "mocha": "^3.2.0",
+    "pg": "^6.1.4"
+  }
+}
